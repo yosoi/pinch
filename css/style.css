@@ -1,7 +1,25 @@
+/* floral white #f7f4ea
+french sky blue #71a9f7
+indigo dye #134074 */
+
 body {
-  margin: 0;
+  background-color: #111;
+  color: #eee;
 }
 
 canvas {
   display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  font-family: 'Alegreya', serif;
 }
