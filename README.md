@@ -1,2 +1,1 @@
-# pinch
-New from Budget Starlines: the Personal In-Flight Neurostimulation Chamber (PINCH).
+Budget Starlines: We'll Get You There in a Pinch
