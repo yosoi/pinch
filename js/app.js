@@ -1,3 +1,7 @@
+import drawBackgroundImage from "./drawBackgroundImage.js";
+import resizeCanvas from "./resizeCanvas.js";
+
 $(document).ready(function() {
-  console.log("hi");
+  resizeCanvas("canvas-background");
+  drawBackgroundImage("canvas-background");
 });

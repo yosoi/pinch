@@ -2,10 +2,18 @@
 french sky blue #71a9f7
 indigo dye #134074 */
 
-.logo-font {
-  font-family: 'Nunito', sans-serif;
+#canvas-background {
+  display: block;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
 
 footer {
   text-align: center;
+}
+
+.logo-font {
+  font-family: 'Nunito', sans-serif;
 }
