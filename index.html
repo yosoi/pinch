@@ -4,6 +4,9 @@
 
     <!-- Meta -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Branding -->
     <title>PINCH | Budget Starlines</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -78,9 +81,9 @@
               </div>
               <div class="">
                 <div class="card-body">
-                  <h3>1<sup>st</sup> Class</h3>
+                  <h3>First Class</h3>
                   <p>Enjoy complimentary access to world-class virtual realities.</p>
-                  <button type="button" class="btn btn-primary">Explore</button>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-first-class">Explore</button>
                 </div>
               </div>
             </div>
@@ -96,7 +99,7 @@
                 <div class="card-body">
                   <h3>Business Class</h3>
                   <p>All the bells and whistles that tomorrow's high-powered business-person demands.</p>
-                  <button type="button" class="btn btn-primary">Explore</button>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-business-class">Explore</button>
                 </div>
               </div>
             </div>
@@ -112,7 +115,7 @@
                 <div class="card-body">
                   <h3>Economy Class</h3>
                   <p>Provided by default in compliance with federal regulations.</p>
-                  <button type="button" class="btn btn-primary">Explore</button>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-economy-class">Explore</button>
                 </div>
               </div>
             </div>
@@ -130,8 +133,80 @@
 
     </div>
 
+    <!-- 1st Class Modal -->
+    <div class="modal fade" id="modal-first-class" tabindex="-1" role="dialog" aria-labelledby="modal-first-class-title" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="modal-first-class-title">First Class</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              For a limited time, Budget Starlines has partnered with CryoSim to bring our passengers the latest in PINCH technology. Enjoy complimentary access to world-class VRs like <em>VirtualEarth</em>, <em>Deathproof</em>, <em>Time Rewinder</em>, and even CryoSim's new cutting-edge pleasure simulator, <em>Barbarian Party Time</em>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Choose First Class</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Business Class Modal -->
+    <div class="modal fade" id="modal-business-class" tabindex="-1" role="dialog" aria-labelledby="modal-business-class-title" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="modal-business-class-title">Business Class</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Our Business Class PINCH units feature all the bells and whistles that tomorrow's high-powered businessperson demands, including <em>GoGoJuice Steroid Gel</em>, high-speed internet access, more than 30 newly-added combat simulations, and complimentary neuro-linked access to the ship's onboard fax machine. We also offer three levels of StimDrip upon request for un-augmented passengers.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Choose Business Class</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Economy Class Modal -->
+    <div class="modal fade" id="modal-economy-class" tabindex="-1" role="dialog" aria-labelledby="modal-economy-class-title" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="modal-economy-class-title">Economy Class</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Our economy option is provided by default to all Budget Starlines ticket-holders in compliance with federal regulations.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Choose Economy Class</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/threejs/r84/three.min.js"></script>
     <script src="./js/app.js" charset="utf-8"></script>
 
