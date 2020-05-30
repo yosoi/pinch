@@ -14,4 +14,4 @@ Our Business Class PINCH units feature all the bells and whistles that tomorrow'
 
 ## Economy
 
-Our economy option is provided by default to all Budget Starlines ticket-holders according to federal regulations.
+Our economy option is provided by default to all Budget Starlines ticket-holders in compliance with federal regulations.

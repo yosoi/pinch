@@ -14,110 +14,126 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Ubuntu:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital@1&family=Nunito:ital,wght@1,800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
+  </head>
+  <body>
+
+    <!-- Page -->
+    <div class="container d-flex flex-column min-vh-100">
+
+      <!-- Main -->
+      <div class="wrapper flex-grow-1">
+
+        <!-- Navbar -->
+        <nav class="navbar">
+          <a class="navbar-brand">
+            <img src="./img/budget_starlines_logo_01.svg" alt="" width="30" height="30" class="d-inline-block align-center">
+            <span class="logo-font">Budget</span>
+
+          </a>
+        </nav>
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+          <div class="">
+            <h1 class="display-1">Pinch</h1>
+            <p class="lead">
+              Our Personal In-flight Neurostimulation Chambers are guaranteed to keep your mind fresh and your body frozen for the duration of your journey.
+            </p>
+            <p>
+              <small>
+                <em>
+                  Budget Starlines: We'll Get You There in a PINCH.
+                </em>
+              </small>
+            </p>
+          </div>
+        </div>
+
+        <!-- Options -->
+        <div class="">
+
+          <!-- Title -->
+          <div class="">
+            <h1 class="display-4 text-center">Pick Your Pinch</h1>
+          </div>
+
+          <!-- Cards -->
+          <div class="card-deck">
+
+            <!-- 1st Class -->
+            <div class="card">
+              <div class="">
+                <div class="">
+                  <img src="./img/budget_starlines_logo_01.svg" alt="">
+                </div>
+              </div>
+              <div class="">
+                <div class="card-body">
+                  <h3>1<sup>st</sup> Class</h3>
+                  <p>Enjoy complimentary access to world-class virtual realities.</p>
+                  <button type="button" class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Business Class -->
+            <div class="card">
+              <div class="">
+                <div class="">
+                  <img src="./img/budget_starlines_logo_01.svg" alt="">
+                </div>
+              </div>
+              <div class="">
+                <div class="card-body">
+                  <h3>Business Class</h3>
+                  <p>All the bells and whistles that tomorrow's high-powered business-person demands.</p>
+                  <button type="button" class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Economy Class -->
+            <div class="card">
+              <div class="">
+                <div class="">
+                  <img src="./img/budget_starlines_logo_01.svg" alt="">
+                </div>
+              </div>
+              <div class="">
+                <div class="card-body">
+                  <h3>Economy Class</h3>
+                  <p>Provided by default in compliance with federal regulations.</p>
+                  <button type="button" class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        &copy; 2222 Budget Starlines, Inc.
+      </footer>
+
+    </div>
+
     <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/threejs/r84/three.min.js"></script>
     <script src="./js/app.js" charset="utf-8"></script>
-
-  </head>
-  <body>
-
-    <!-- Non-footer -->
-    <div class="">
-
-      <!-- Navbar -->
-      <nav class="">
-        <a class="">
-          <img src="./img/budget_starlines_logo_01.svg" alt="" class="">
-          Budget
-        </a>
-      </nav>
-
-      <!-- Jumbotron -->
-      <div class="">
-        <div class="">
-          <h1>Pinch</h1>
-          <p>
-            Our Personal In-flight Neurostimulation Chambers are guaranteed to keep your mind fresh and your body frozen for the duration of your journey. Budget Starlines: We'll Get You There in a PINCH.
-          </p>
-        </div>
-      </div>
-
-      <!-- Options -->
-      <div class="">
-
-        <!-- Title -->
-        <div class="">
-          <h2>Pick Your Pinch</h2>
-        </div>
-
-        <!-- Cards -->
-        <div class="">
-
-          <!-- 1st Class -->
-          <div class="card">
-            <div class="">
-              <div class="">
-                <img src="./img/budget_starlines_logo_01.svg" alt="">
-              </div>
-            </div>
-            <div class="">
-              <div class="card-body">
-                <h3>1<sup>st</sup> Class</h3>
-                <p>Enjoy complimentary access to world-class VRs.</p>
-                <a href="#">Explore</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Business Class -->
-          <div class="card">
-            <div class="">
-              <div class="">
-                <img src="./img/budget_starlines_logo_01.svg" alt="">
-              </div>
-            </div>
-            <div class="">
-              <div class="card-body">
-                <h3>Business Class</h3>
-                <p>All the bells and whistles that tomorrow's high-powered businessperson demands.</p>
-                <a href="#">Explore</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Economy Class -->
-          <div class="card">
-            <div class="">
-              <div class="">
-                <img src="./img/budget_starlines_logo_01.svg" alt="">
-              </div>
-            </div>
-            <div class="">
-              <div class="card-body">
-                <h3>Economy Class</h3>
-                <p>Provided by default in compliance with federal regulations.</p>
-                <a href="#">Explore</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Footer -->
-    <footer>
-      &copy; 2222 Budget Starlines, Inc.
-    </footer>
 
   </body>
 </html>
