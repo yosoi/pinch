@@ -1,16 +1,31 @@
+// Custom Variables
+$logo-font: 'Nunito', sans-serif;
+$product-font: 'Expletus Sans', cursive;
+
+// Bootstrap Variable Overrides
+$jumbotron-bg: none;
+$navbar-brand-font-size: 2rem;
+$navbar-padding-y: 1rem;
+$primary: #134074;
+
+// Bootstrap Import
 @import "../lib/bootstrap/scss/bootstrap";
 
-$logo-font: 'Nunito', sans-serif;
-$light-blue: "#71a9f7";
-$dark-blue: "#134074";
-$white: "#f7f4ea";
-
-footer {
-  text-align: center;
+.budget {
+  font-family: $logo-font;
+  color: #71a9f7;
 }
 
-.logo-font {
-  font-family: $logo-font;
+.starlines {
+  font-family: $product-font;
+}
+
+.pinch-color {
+  color: #E5E059;
+}
+
+.pinch-font {
+  font-family: $product-font;
 }
 
 #canvas-background {
@@ -20,3 +35,44 @@ footer {
   top: 0;
   left: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+// // Custom Variables
+// $logo-font: 'Nunito', sans-serif;
+// $heading-font: 'Expletus Sans', cursive;
+// $light-blue: "#71a9f7";
+// $dark-blue: "#134074";
+// $white: "#f7f4ea";
+//
+// // Tag Styles
+// footer {
+//   text-align: center;
+// }
+
+// // Class Styles
+// .logo-font {
+//   font-family: $logo-font;
+//   color: $light-blue;
+// }
+//
+// .heading-font {
+//   font-family: $heading-font;
+// }
+//
+// // ID Styles
+// #canvas-background {
+//   display: block;
+//   position: fixed;
+//   z-index: -1;
+//   top: 0;
+//   left: 0;
+// }
