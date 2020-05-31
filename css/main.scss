@@ -1,0 +1,22 @@
+@import "../lib/bootstrap/scss/bootstrap";
+
+$logo-font: 'Nunito', sans-serif;
+$light-blue: "#71a9f7";
+$dark-blue: "#134074";
+$white: "#f7f4ea";
+
+footer {
+  text-align: center;
+}
+
+.logo-font {
+  font-family: $logo-font;
+}
+
+#canvas-background {
+  display: block;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
