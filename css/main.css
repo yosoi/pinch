@@ -9875,6 +9875,12 @@ h3 {
     border-color: #dee2e6;
   }
 }
+sup {
+  font-size: 0.5rem;
+  vertical-align: super;
+  margin: 0.25rem;
+}
+
 .budget {
   font-family: "Nunito", sans-serif;
   color: #71a9f7;

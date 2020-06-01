@@ -11,6 +11,12 @@ $primary: #134074;
 // Bootstrap Import
 @import "../lib/bootstrap/scss/bootstrap";
 
+sup {
+  font-size: 0.5rem;
+  vertical-align: super;
+  margin: 0.25rem;
+}
+
 .budget {
   font-family: $logo-font;
   color: #71a9f7;
