@@ -1,7 +1,9 @@
-import drawBackgroundImage from "./drawBackgroundImage.js";
-import resizeCanvas from "./resizeCanvas.js";
+import redrawCanvas from "./redrawCanvas.js";
 
 $(document).ready(function() {
-  resizeCanvas("canvas-background");
-  drawBackgroundImage("canvas-background");
+  redrawCanvas("canvas-background");
+});
+
+$(window).resize(function() {
+  redrawCanvas("canvas-background");
 });
